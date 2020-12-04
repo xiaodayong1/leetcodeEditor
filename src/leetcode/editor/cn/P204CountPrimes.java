@@ -40,13 +40,13 @@ import java.util.Arrays;
 public class P204CountPrimes{
     public static void main(String[] args) {
         // TO TEST
-        Solution solution = new Solution();
+        Solution204 solution = new Solution204();
         int i = solution.countPrimes(10);
         System.out.println(i);
     }
 }
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution204 {
     public int countPrimes(int n) {
         boolean[] booleans = new boolean[n];
         Arrays.fill(booleans,true);
